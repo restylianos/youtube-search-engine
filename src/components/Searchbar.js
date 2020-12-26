@@ -13,6 +13,11 @@ class Searchbar extends React.Component {
   render() {
     return (
       <div>
+        <div className="has-text-centered">
+          <figure>
+            <img src="https://img.icons8.com/clouds/100/000000/youtube-music.png" />
+          </figure>
+        </div>
         <form onSubmit={this.onFormSubmit}>
           <div className="field">
             <div className="control">

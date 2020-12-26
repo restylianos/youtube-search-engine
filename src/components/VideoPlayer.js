@@ -39,6 +39,7 @@ class VideoDetail extends React.Component {
     } else {
       return <div></div>;
       //if video is not loaded show an empty div
+      //used to solve undifined problem
     }
   }
 }

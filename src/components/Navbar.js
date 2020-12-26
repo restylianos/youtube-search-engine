@@ -15,25 +15,6 @@ class Navbar extends React.Component {
             ></img>
           </a>
         </div>
-        {/* <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="buttons">
-              <a
-                className="button is-rounded"
-                onClick={() => {
-                  if (this.state.darkModeText === 'Dark Mode') {
-                    this.setState({ darkModeText: 'Default Mode' });
-                  } else {
-                    this.setState({ darkModeText: 'Dark Mode' });
-                  }
-                }}
-                style={{ backgroundColor: 'black', color: 'white' }}
-              >
-                {this.state.darkModeText}
-              </a>
-            </div>
-          </div>
-        </div> */}
       </div>
     );
   }

@@ -27,10 +27,6 @@ class VideoItem extends React.Component {
               </div>
             </div>
           </div>
-          {/* <div className="media-content">
-            <br></br>
-            <p className="title is-5 has-text-centered">{this.props.video.snippet.title}</p>
-          </div> */}
         </div>
       </div>
     );
